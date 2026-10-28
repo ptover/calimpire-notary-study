@@ -1,4 +1,4 @@
-const cacheName='calimpire-phone-v1';
+const cacheName='calimpire-phone-v2';
 const base='/calimpire-notary-study/';
 const assets=[base,`${base}index.html`,`${base}styles.css`,`${base}app.js`,`${base}questions.js`,`${base}manifest.webmanifest`,`${base}assets/icon-192.png`,`${base}assets/icon-512.png`,`${base}assets/apple-touch-icon.png`];
 self.addEventListener('install',event=>event.waitUntil(caches.open(cacheName).then(cache=>cache.addAll(assets)).then(()=>self.skipWaiting())));

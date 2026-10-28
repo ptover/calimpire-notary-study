@@ -424,5 +424,113 @@ export const questions = [
     ],
     "correct": 2,
     "explanation": "No fee may be charged for notarizing signatures on specified voting materials."
+  },
+  {
+    "id": "q37",
+    "prompt": "How long is a California notary public commission term?",
+    "answers": [
+      "Two years",
+      "Three years",
+      "Four years",
+      "Six years"
+    ],
+    "correct": 2,
+    "explanation": "A California notary public commission is issued for a four-year term."
+  },
+  {
+    "id": "q38",
+    "prompt": "What is the maximum per-page fee a notary may charge when a member of the public requests a copy of a journal transaction?",
+    "answers": [
+      "$0.10 per page",
+      "$0.30 per page",
+      "$1.00 per page",
+      "$15.00 per page"
+    ],
+    "correct": 1,
+    "explanation": "The maximum fee for supplying a requested copy of a journal transaction is 30 cents per page."
+  },
+  {
+    "id": "q39",
+    "prompt": "An employer paid for a notary's journal and commission expenses. Who owns and controls the journal?",
+    "answers": [
+      "The employer",
+      "The county recorder",
+      "The notary public",
+      "The Secretary of State"
+    ],
+    "correct": 2,
+    "explanation": "The journal is the notary's exclusive property and must remain under the notary's control, even when an employer paid commission-related expenses."
+  },
+  {
+    "id": "q40",
+    "prompt": "May a California notary notarize a document written in a language the notary cannot read?",
+    "answers": [
+      "Never",
+      "Only if an interpreter explains it",
+      "Yes, if the document is complete, the notarial wording is understood, and the notary can communicate directly with the signer",
+      "Yes, but only for relatives"
+    ],
+    "correct": 2,
+    "explanation": "A foreign-language document may be notarized when the notary can complete the required act, the document is complete, and the notary communicates directly with the signer without relying on an interpreter."
+  },
+  {
+    "id": "q41",
+    "prompt": "What must happen to a notary seal when the commission is terminated, resigned, or revoked?",
+    "answers": [
+      "It must be given to the employer",
+      "It must be kept for seven years",
+      "It must be destroyed or defaced so it cannot be used",
+      "It must be mailed to the county clerk"
+    ],
+    "correct": 2,
+    "explanation": "The seal must be destroyed or defaced when the commission is no longer valid because of termination, resignation, or revocation."
+  },
+  {
+    "id": "q42",
+    "prompt": "A notary moves the principal place of business from one California county to another. Must the notary file a new oath and bond in the new county?",
+    "answers": [
+      "Yes, within 10 days",
+      "Yes, before the next notarization",
+      "No; filing in the new county is optional during the current commission",
+      "No, and filing in the new county is prohibited"
+    ],
+    "correct": 2,
+    "explanation": "After a business move to another county, filing a new oath and bond in the new county is optional for the current commission, although required address-change notices still apply."
+  },
+  {
+    "id": "q43",
+    "prompt": "Which seal size complies with the California handbook?",
+    "answers": [
+      "A circular seal up to 2 inches in diameter or a rectangular seal up to 1 inch by 2.5 inches",
+      "Any size that fits on the document",
+      "Only a 3-inch circular seal",
+      "Only a 2-inch by 4-inch rectangular seal"
+    ],
+    "correct": 0,
+    "explanation": "A California notary seal may be circular, no more than 2 inches in diameter, or rectangular, no more than 1 inch wide by 2.5 inches long."
+  },
+  {
+    "id": "q44",
+    "prompt": "What should a notary do after discovering that the official seal was lost or damaged?",
+    "answers": [
+      "Wait until commission renewal",
+      "Immediately notify the Secretary of State in writing and request authorization for a replacement seal",
+      "Order a replacement directly without notice",
+      "Borrow another notary's seal"
+    ],
+    "correct": 1,
+    "explanation": "Loss or damage must be reported to the Secretary of State immediately in writing. When requested, replacement-seal authorization is issued within five working days."
+  },
+  {
+    "id": "q45",
+    "prompt": "After an approved name change, which action is required to continue notarizing under the new name?",
+    "answers": [
+      "Keep using the old seal until renewal",
+      "File the amended oath and bond as required, then obtain a new seal bearing the new name within the required 30-day period",
+      "Alter the old seal by hand",
+      "Use either name without changing commission records"
+    ],
+    "correct": 1,
+    "explanation": "The notary must complete the amended oath-and-bond process and timely obtain a seal showing the new name; the old-name seal cannot continue to be used after the amended filing."
   }
 ];
